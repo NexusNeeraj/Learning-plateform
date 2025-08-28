@@ -1,12 +1,101 @@
-# React + Vite
+````markdown
+# A-Level Economics Learning Platform (MVP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a minimal learning platform built for **A-Level Economics (AQA Paper 3 MCQs)**.  
+It includes:
 
-Currently, two official plugins are available:
+- **Multiple Choice Questions (MCQs)**
+- **End-of-quiz automated scoring**
+- **Adaptive difficulty engine** (serves harder questions as students improve)
+- **Student dashboard** (shows level reached, score trends, and weak areas)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Quiz System**
+   - Students answer multiple choice questions.
+   - Next question button appears until quiz completion.
+
+2. **Adaptive Engine**
+   - Questions get harder as students answer correctly.
+   - Tracks difficulty level: Easy → Medium → Hard.
+
+3. **Automated Scoring**
+   - After quiz submission, students immediately see:
+     - Final score (correct / total).
+     - Weak topics (based on mistakes).
+     - Score progression per question.
+
+4. **Student Dashboard**
+   - Displays:
+     - Total Score
+     - Level achieved
+     - Trend chart of performance
+     - List of weak areas
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + Vite** (Frontend)
+- **TailwindCSS** (Styling)
+- **Framer Motion** (Animations)
+- **Recharts** (Charts/Graphs)
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/econ-learning-mvp.git
+   cd econ-learning-mvp
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open in browser:
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## 📘 Question Bank
+
+Currently, the quiz pulls questions from a sample dataset (mock AQA Paper 3 MCQs).
+You can add more in `src/questions.js`.
+
+---
+
+## 📊 Future Improvements
+
+* Authentication system for multiple students
+* Saving progress across sessions
+* Admin panel to add/import new questions
+* More advanced adaptive engine (topic-wise)
+
+---
+
+## 📚 Reference
+
+* [AQA A-Level Economics Past Papers (Paper 3)](https://www.physicsandmathstutor.com/past-papers/a-level-economics/aqa-paper-3/)
+
+---
+
+## 👨‍💻 Author
+
+Built by Neeraj Gupta.
+
