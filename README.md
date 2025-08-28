@@ -1,4 +1,3 @@
-````markdown
 # A-Level Economics Learning Platform (MVP)
 
 This is a minimal learning platform built for **A-Level Economics (AQA Paper 3 MCQs)**.  
@@ -49,9 +48,9 @@ It includes:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/econ-learning-mvp.git
-   cd econ-learning-mvp
-````
+        git clone https://github.com/your-username/learning-plateform.git
+        cd learning-plateform
+    ````
 
 2. Install dependencies:
 
@@ -99,3 +98,4 @@ You can add more in `src/questions.js`.
 
 Built by Neeraj Gupta.
 
+```
